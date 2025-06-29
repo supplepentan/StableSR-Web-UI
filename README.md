@@ -136,11 +136,3 @@ If our work is useful for your research, please consider citing:
 ### License (ライセンス)
 
 This project is licensed under <a rel="license" href="https://github.com/IceClear/StableSR/blob/main/LICENSE.txt">NTU S-Lab License 1.0</a>. Redistribution and use should follow this license.
-
-### Acknowledgement (謝辞)
-
-This project is based on [stablediffusion](https://github.com/Stability-AI/stablediffusion), [latent-diffusion](https://github.com/CompVis/latent-diffusion), [SPADE](https://github.com/NVlabs/SPADE), [mixture-of-diffusers](https://github.com/albarji/mixture-of-diffusers) and [BasicSR](https://github.com/XPixelGroup/BasicSR). Thanks for their awesome work.
-
-### Contact (連絡先)
-
-If you have any questions, please feel free to reach me out at `iceclearwjy@gmail.com`.
