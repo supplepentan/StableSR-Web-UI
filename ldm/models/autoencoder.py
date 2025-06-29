@@ -3,7 +3,7 @@ import pytorch_lightning as pl
 import torch.nn.functional as F
 from contextlib import contextmanager
 
-from taming.modules.vqvae.quantize import VectorQuantizer2 as VectorQuantizer
+from taming.modules.vqvae.quantize import VectorQuantizer
 
 from ldm.modules.diffusionmodules.model import Encoder, Decoder, Decoder_Mix
 from ldm.modules.distributions.distributions import DiagonalGaussianDistribution
@@ -12,8 +12,8 @@ from ldm.util import instantiate_from_config
 
 from basicsr.utils import DiffJPEG, USMSharp
 from basicsr.utils.img_process_util import filter2D
-from basicsr.data.transforms import paired_random_crop, triplet_random_crop
-from basicsr.data.degradations import random_add_gaussian_noise_pt, random_add_poisson_noise_pt, random_add_speckle_noise_pt, random_add_saltpepper_noise_pt
+from basicsr.data.transforms import paired_random_crop
+from basicsr.data.degradations import random_add_gaussian_noise_pt, random_add_poisson_noise_pt
 import random
 
 import torchvision.transforms as transforms
